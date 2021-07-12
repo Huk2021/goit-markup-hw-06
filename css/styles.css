@@ -313,6 +313,7 @@ position: relative;
   box-sizing: border-box;
   border-radius: 4px;
   outline: none;
+  padding-left: 42px;
 }
 
 .form-icon {
@@ -336,11 +337,6 @@ position: relative;
   border-radius: 4px;
   box-sizing: border-box;
   outline: none;
-  
-   font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
   
 
   padding-left: 16px;
