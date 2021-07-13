@@ -354,12 +354,8 @@ textarea::placeholder {
   font-style: normal;
   font-weight: normal;
 }
-.checkbox {
-  margin-left: 52px;
-  width: 16px;
-  height: 15px;
-  
-}
+
+/* ------------checkbox----------------------- */
 .checkbox-label {
   margin-top: 20px;
   font-weight: 400;
@@ -367,8 +363,19 @@ textarea::placeholder {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
- 
+
 }
+
+.modal-checkbox {
+  margin-left: 52px;
+  width: 16px;
+  height: 15px;
+  
+  
+}
+
+ 
+
 .conditions-link {
   color: var(--accent-color);
 }

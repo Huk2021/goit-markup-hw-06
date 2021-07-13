@@ -485,9 +485,14 @@
                     <textarea name="user-message" class="contact-form-message" placeholder="Введите текст"></textarea>
                 </div>
 
-                <input class="checkbox" type="checkbox" name="consent" value="consent" />
-                <label class="checkbox-label" for="consent">Соглашаюсь с рассылкой и принимаю
-                    <a href="" class="conditions-link">Условия договора</a></label>
+                <!-------------------- checkbox------------- -->
+                <label class="checkbox-label">
+                    <input class="modal-checkbox" type="checkbox" name="consent" value="consent" required />
+                    <span class="checkbox-icon"></span>
+                    <span class="consent">Соглашаюсь с рассылкой и принимаю <a class="conditions-link" href="#">
+                            Условия договора</a></span>
+                </label>
+
                 <button class="submit-button" type="submit">Отправить</button>
 
 
