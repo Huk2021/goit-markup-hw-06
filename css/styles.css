@@ -358,11 +358,12 @@ position: relative;
   font-weight: normal;
 }
 .contact-form-message:focus,
-.contact-form-input:focus,
-.contact-form-input + .form-icon:focus {
+.contact-form-input:focus {
+ outline: none;
+ border-color: var(--accent-color) ;
+}
+.contact-form-input:focus + .form-icon {
   fill: var(--accent-color);
-  outline: none;
-  border-color: var(--accent-color) ;
 }
 
 
