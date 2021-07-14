@@ -400,15 +400,6 @@ position: relative;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox:focus + .checkbox-icon {
-  border-color: transparent;
-  background-color: var(--accent-color);
-  background-image: url('../images/icon-check.svg');
-  background-origin: border-box;
-  background-size: contain;
-  border: 0;
-}
-
 .modal-checkbox:checked + .checkbox-icon {
   border-color: transparent;
   background-color: var(--accent-color);
@@ -417,6 +408,12 @@ position: relative;
   background-size: contain;
   border: 0;
 }
+
+.modal-checkbox:focus + .checkbox-icon {
+  border-color: var(--accent-color);
+}
+
+
 
 .conditions-link {
   color: var(--accent-color);
@@ -438,9 +435,7 @@ position: relative;
   border-radius: 4px;
   cursor: pointer;
   margin-top: 30px;
-
 }
-
 
 /* ========КОНЕЦ МОДАЛЬНОЕ ОКНО ================= */
 
